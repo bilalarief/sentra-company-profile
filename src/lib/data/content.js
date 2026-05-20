@@ -31,7 +31,7 @@ export const hero = {
 export const about = {
 	label: 'About Us',
 	heading:
-		'Sentra Steel Works is a stainless steel workshop based in Bandung. We do custom fabrication and furniture for homeowners, restaurants, cafes, and contractors who need the work done properly.',
+		'Sentra Works is a stainless steel workshop based in Bandung. We do custom fabrication and furniture for homeowners, restaurants, cafes, and contractors who need the work done properly.',
 	columns: [
 		{
 			title: 'Simple & direct',
@@ -49,9 +49,8 @@ export const services = {
 	heading: 'What We Can Do For You',
 	cards: [
 		{
-			title: 'Custom Steel Fabrication',
-			// Placeholder image — replace with actual fabrication photo
-			image: 'https://placehold.co/640x480?text=Steel+Fabrication',
+			title: 'Custom Steel\nFabrication',
+			image: '/images/service-fabrication.png',
 			imageAlt: 'Custom steel fabrication process showing welding and metalwork',
 			description:
 				"Got a specific need? Bring us your idea, measurements, or a reference photo — we'll build it.",
@@ -63,9 +62,8 @@ export const services = {
 			]
 		},
 		{
-			title: 'Stainless Steel Furniture',
-			// Placeholder image — replace with actual furniture photo
-			image: 'https://placehold.co/640x480?text=Steel+Furniture',
+			title: 'Stainless Steel\nFurniture',
+			image: '/images/service-furniture.png',
 			imageAlt: 'Stainless steel furniture including tables and shelving units',
 			description:
 				'Durable, clean, and built for daily use. Standard sizes ready, or we make it custom to fit your space.',

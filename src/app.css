@@ -7,7 +7,7 @@
 	--color-primary: #111111;
 	--color-secondary: #6B6B6B;
 	--color-accent: #1A1A1A;
-	--color-light: #FFFFFF;
+	--color-light: #F8FAFC;
 	--color-light-gray: #F5F5F3;
 	--color-dark: #111111;
 	--color-dark-muted: #1a1a1a;
@@ -70,11 +70,17 @@ body {
 }
 
 .section-container {
-	max-width: 72rem;
+	width: 90%;
+	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+	.section-container {
+		width: 80vw;
+		max-width: 80vw;
+	}
 }
 
 /* ── Smooth Transitions ── */

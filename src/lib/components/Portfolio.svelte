@@ -1,40 +1,60 @@
 <script>
-	import { portfolio } from '$lib/data/content.js';
+	import { content } from "$lib/i18n/index.svelte.js";
+	import { reveal } from "$lib/actions/reveal.js";
+
+	const i18n = $derived(content());
 </script>
 
-<section id="works" class="section-padding" style="background-color: #F5F5F3;">
-	<div class="section-container">
-		<!-- Label -->
-		<p class="label-sm mb-6">{portfolio.label}</p>
+<section
+	id="works"
+	class="relative min-h-screen flex items-end overflow-hidden bg-black scroll-mt-20"
+>
+	<!-- Background video -->
+	<div class="absolute inset-0 z-0 select-none pointer-events-none">
+		<video
+			class="w-full h-full object-cover object-center"
+			autoplay
+			muted
+			loop
+			playsinline
+			poster="/images/portfolio-showcase.jpg"
+			aria-hidden="true"
+		>
+			<!-- Add your video source here when available -->
+			<!-- <source src="/videos/portfolio-reel.mp4" type="video/mp4" /> -->
+		</video>
+		<!-- Fallback: show poster image when no video source -->
+		<img
+			src="/images/portfolio-showcase.jpg"
+			alt="Sentra Steel Works portfolio showcase"
+			class="absolute inset-0 w-full h-full object-cover object-center"
+		/>
+		<!-- Dark overlay -->
+		<div class="absolute inset-0 bg-black/50"></div>
+	</div>
+
+	<!-- Content overlaid at bottom-left -->
+	<div
+		class="relative z-10 w-full section-container pb-20 md:pb-28"
+		use:reveal
+	>
+		<!-- Badge -->
+		<span
+			class="inline-block /10 text-white/70 text-[11px] font-medium tracking-widest px-3 py-1.5 rounded-sm mb-6"
+		>
+			{i18n.portfolio.label}
+		</span>
 
 		<!-- Heading -->
-		<h2 class="heading-section text-primary mb-12 lg:mb-16">{portfolio.heading}</h2>
-
-		<!-- Video Embed Placeholder -->
-		<!-- TODO: Replace with actual YouTube/Vimeo embed or self-hosted video -->
-		<div class="relative w-full overflow-hidden bg-dark rounded-sm" style="aspect-ratio: 16/9;">
-			<!-- Placeholder for video embed -->
-			<div class="absolute inset-0 flex items-center justify-center bg-dark">
-				<!-- Play button overlay -->
-				<button
-					class="relative z-10 w-20 h-20 lg:w-24 lg:h-24 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center hover:bg-white/20 transition-all duration-300 group"
-					aria-label="Play portfolio video"
-				>
-					<svg class="w-8 h-8 lg:w-10 lg:h-10 text-white ml-1 group-hover:scale-110 transition-transform duration-200" fill="currentColor" viewBox="0 0 24 24">
-						<path d="M8 5v14l11-7z" />
-					</svg>
-				</button>
-				<!-- Placeholder background image -->
-				<img
-					src="https://placehold.co/1280x720?text=Portfolio+Video"
-					alt="Portfolio showcase video thumbnail"
-					class="absolute inset-0 w-full h-full object-cover opacity-30"
-					loading="lazy"
-				/>
-			</div>
-		</div>
+		<h2
+			class="text-4xl sm:text-5xl md:text-6xl font-medium text-white tracking-tight leading-[1.1] mb-6 max-w-3xl"
+		>
+			{i18n.portfolio.heading}
+		</h2>
 
 		<!-- Subtext -->
-		<p class="body-text mt-8 max-w-xl">{portfolio.subtext}</p>
+		<p class="text-base text-white/70 max-w-xl leading-relaxed">
+			{i18n.portfolio.subtext}
+		</p>
 	</div>
 </section>

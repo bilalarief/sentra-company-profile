@@ -1,51 +1,90 @@
 <script>
-	import { services } from '$lib/data/content.js';
+	import { content } from "$lib/i18n/index.svelte.js";
+	import { reveal } from "$lib/actions/reveal.js";
+
+	const i18n = $derived(content());
 </script>
 
-<section id="services" class="section-padding bg-white">
-	<div class="section-container">
-		<!-- Label -->
-		<p class="label-sm mb-6">{services.label}</p>
+<section id="services" class=" py-20 md:py-28 scroll-mt-20">
+	<div class="section-container" use:reveal>
+		<div
+			class="grid grid-cols-1 lg:grid-cols-[180px_1fr] gap-8 lg:gap-12 items-start"
+		>
+			<!-- Badge (Left Column) -->
+			<div class="w-full">
+				<span
+					class="inline-block bg-slate-100 text-[#6B6B6B] text-[11px] font-medium tracking-wide px-3 py-1.5 rounded-sm"
+				>
+					{i18n.services.label}
+				</span>
+			</div>
 
-		<!-- Heading -->
-		<h2 class="heading-section text-primary mb-12 lg:mb-16">{services.heading}</h2>
+			<!-- Main Content (Right Columns) -->
+			<div class="w-full">
+				<!-- Heading -->
+				<h2
+					class="text-[26px] md:text-[36px] leading-[1.2] md:leading-[1.25] font-medium tracking-tight text-primary mb-12 lg:mb-16"
+				>
+					{i18n.services.heading}
+				</h2>
 
-		<!-- Service Cards -->
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-			{#each services.cards as card}
-				<div class="group border border-gray-200 overflow-hidden hover:border-gray-300 transition-colors duration-300">
-					<!-- Card Image -->
-					<div class="relative overflow-hidden aspect-[4/3]">
-						<!-- Placeholder image — replace with actual photo -->
-						<img
-							src={card.image}
-							alt={card.imageAlt}
-							class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-							loading="lazy"
-						/>
-						<!-- Title Overlay -->
-						<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end">
-							<h3 class="text-white text-xl lg:text-2xl font-semibold p-6">
-								{card.title}
-							</h3>
+				<!-- Service Cards Grid -->
+				<div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
+					{#each i18n.services.cards as card}
+						<div
+							class="grid grid-cols-1 sm:grid-cols-2 border border-[#E5E7EB] rounded-sm overflow-hidden"
+						>
+							<!-- Left Column: Image with Overlay Title -->
+							<div
+								class="relative h-60 sm:h-full min-h-[220px] overflow-hidden"
+							>
+								<img
+									src={card.image}
+									alt={card.imageAlt}
+									class="absolute inset-0 w-full h-full object-cover"
+									loading="lazy"
+								/>
+								<!-- Title overlaid at top-left (no shadow black overlay) -->
+								<div class="absolute top-0 left-0 p-5">
+									<h3
+										class="text-white text-[20px] lg:text-[22px] font-semibold leading-tight tracking-tight whitespace-pre-line"
+									>
+										{card.title}
+									</h3>
+								</div>
+							</div>
+
+							<!-- Right Column: Details list with separate rows (generous padding) -->
+							<div class="flex flex-col h-full justify-between">
+								<!-- Description (Top Section) -->
+								<div class="p-6 flex-shrink-0">
+									<p
+										class="text-[14px] leading-relaxed text-[#555555]"
+									>
+										{card.description}
+									</p>
+								</div>
+
+								<!-- Bullets List (Bottom Section, Gray-Blue background, comfortable row borders) -->
+								<div
+									class="flex-1 bg-[#F8FAFC] border-t border-[#E5E7EB] divide-y divide-[#E5E7EB] flex flex-col justify-start"
+								>
+									{#each card.bullets as bullet}
+										<div
+											class="py-3.5 px-6 text-[14px] text-[#444444] flex items-center gap-2.5"
+										>
+											<span
+												class="w-1.5 h-1.5 rounded-full bg-gray-400 flex-shrink-0"
+											></span>
+											<span>{bullet}</span>
+										</div>
+									{/each}
+								</div>
+							</div>
 						</div>
-					</div>
-
-					<!-- Card Content -->
-					<div class="p-6 lg:p-8">
-						<p class="body-text mb-5">{card.description}</p>
-
-						<ul class="space-y-2.5">
-							{#each card.bullets as bullet}
-								<li class="flex items-start gap-3 text-sm text-secondary">
-									<span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/40 flex-shrink-0"></span>
-									{bullet}
-								</li>
-							{/each}
-						</ul>
-					</div>
+					{/each}
 				</div>
-			{/each}
+			</div>
 		</div>
 	</div>
 </section>
