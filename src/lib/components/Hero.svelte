@@ -13,7 +13,9 @@
 	<div class="absolute inset-0 z-0 select-none pointer-events-none">
 		<!-- Full opacity background image -->
 		<img
-			src="/images/hero-bg.jpg"
+			src="/images/hero-bg.webp"
+			width="1440"
+			height="800"
 			alt="Sentra Steel Works metal fabrication workshop"
 			class="w-full h-full object-cover object-center"
 		/>

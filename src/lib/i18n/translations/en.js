@@ -57,7 +57,7 @@ export const en = {
 		cards: [
 			{
 				title: 'Custom Steel\nFabrication',
-				image: '/images/service-fabrication.png',
+				image: '/images/service-fabrication.webp',
 				imageAlt: 'Custom steel fabrication process showing welding and metalwork',
 				description:
 					"Got a specific need? Bring us your idea, measurements, or a reference photo — we'll build it.",
@@ -70,7 +70,7 @@ export const en = {
 			},
 			{
 				title: 'Stainless Steel\nFurniture',
-				image: '/images/service-furniture.png',
+				image: '/images/service-furniture.webp',
 				imageAlt: 'Stainless steel furniture including tables and shelving units',
 				description:
 					'Durable, clean, and built for daily use. Standard sizes ready, or we make it custom to fit your space.',
