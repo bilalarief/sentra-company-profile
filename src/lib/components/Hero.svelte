@@ -46,7 +46,9 @@
 			<!-- Buttons with rounded-sm border radius -->
 			<div class="flex flex-row items-center gap-4">
 				<a
-					href={i18n.hero.primaryCta.href}
+					href={i18n.siteInfo.phoneHref}
+					target="_blank"
+					rel="noopener noreferrer"
 					class="inline-flex items-center bg-white justify-center px-6 py-3 text-[#111111] text-sm font-semibold rounded-sm hover:bg-neutral-200 transition-colors duration-200"
 					aria-label={i18n.hero.primaryCta.label}
 				>
@@ -54,7 +56,7 @@
 				</a>
 				<a
 					href={i18n.hero.ghostCta.href}
-					class="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-semibold rounded-sm hover:/10 transition-colors duration-200"
+					class="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-semibold rounded-sm hover:bg-white/10 transition-colors duration-200"
 					aria-label={i18n.hero.ghostCta.label}
 				>
 					{i18n.hero.ghostCta.label}

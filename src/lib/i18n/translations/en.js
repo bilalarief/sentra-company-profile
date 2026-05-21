@@ -1,6 +1,12 @@
 // ─── English translations ───
 
 export const en = {
+	seo: {
+		title: 'Sentra Steel Works — Custom Stainless Steel Fabrication & Furniture | Bandung',
+		description: 'Sentra Steel Works is a premium custom stainless steel workshop in Bandung, Indonesia. We specialize in bespoke steel furniture, kitchen sets, railings, and commercial metal fabrication.',
+		keywords: 'custom metal fabrication Indonesia, stainless steel fabrication, custom steel furniture, Bandung workshop, metal fabrication Indonesia, steel welding, custom kitchen steel, stainless steel workshop Bandung'
+	},
+
 	siteInfo: {
 		name: 'Sentra Steel Works',
 		logoText: ['SentraSteel', '/ Works'],
@@ -8,7 +14,7 @@ export const en = {
 		url: 'https://www.sentrasteelworks.my.id',
 		email: 'hello@sentrasteelworks.my.id',
 		phone: '+62 851-5992-2134',
-		phoneHref: 'tel:+6285159922134',
+		phoneHref: 'https://wa.me/6285159922134?text=Hello%20Sentra%20Steel%20Works%2C%20I%20am%20interested%20in%20your%20custom%20steel%20%2F%20stainless%20steel%20fabrication%20services.',
 		whatsapp: 'https://wa.me/6285159922134',
 		address: 'Bandung, Indonesia',
 		hours: 'Monday–Friday 9 AM–5 PM WIB',

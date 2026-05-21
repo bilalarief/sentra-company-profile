@@ -1,6 +1,12 @@
 // ─── Indonesian translations ───
 
 export const id = {
+	seo: {
+		title: 'Sentra Steel Works — Fabrikasi Stainless Steel & Furnitur Custom Bandung',
+		description: 'Sentra Steel Works adalah bengkel las stainless steel custom di Bandung. Kami spesialis kitchen set, meja, rak, railing, dan fabrikasi baja berkualitas untuk rumah dan kafe.',
+		keywords: 'fabrikasi stainless steel Bandung, bengkel las Bandung, kitchen set stainless steel, meja stainless steel custom, railing stainless steel Bandung, jasa las stainless steel, furniture stainless custom Bandung, bengkel stainless Bandung, pembubutan stainless steel'
+	},
+
 	siteInfo: {
 		name: 'Sentra Steel Works',
 		logoText: ['SentraSteel', '/ Works'],
@@ -8,7 +14,7 @@ export const id = {
 		url: 'https://www.sentrasteelworks.my.id',
 		email: 'hello@sentrasteelworks.my.id',
 		phone: '+62 851-5992-2134',
-		phoneHref: 'tel:+6285159922134',
+		phoneHref: 'https://wa.me/6285159922134?text=Halo%20Sentra%20Steel%20Works%2C%20saya%20tertarik%20dengan%20layanan%20fabrikasi%20baja%20%2F%20stainless%20steel%20custom%20Anda.',
 		whatsapp: 'https://wa.me/6285159922134',
 		address: 'Bandung, Indonesia',
 		hours: 'Senin–Jumat 09.00–17.00 WIB',
@@ -21,12 +27,12 @@ export const id = {
 	],
 
 	hero: {
-		headline: 'Kami Bekerja Dengan Baja.\nKami Bangun Sesuai Kebutuhan Anda.',
+		headline: 'Kami Bangun Sesuai Kebutuhan Anda.',
 		subtext:
 			'Fabrikasi stainless steel dan furnitur custom, dibuat sesuai pesanan di Bandung. Dikerjakan dengan benar, dikirim tepat waktu.',
 		subtextCity: 'Bandung',
 		primaryCta: { label: 'Mulai Proyek Anda', href: '#contact' },
-		ghostCta: { label: 'Lihat Karya Kami', href: '#works' }
+		ghostCta: { label: 'Lihat Hasil Kerja Kami', href: '#works' }
 	},
 
 	about: {

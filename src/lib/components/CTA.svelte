@@ -23,12 +23,12 @@
 			</div>
 
 			<!-- Right: CTA Button -->
-			<div class="flex-shrink-0">
+			<div class="shrink-0">
 				<a
-					href={i18n.siteInfo.whatsapp}
+					href={i18n.siteInfo.phoneHref}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-medium hover: hover:text-[#0f1623] transition-all duration-200 rounded-sm whitespace-nowrap"
+					class="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-medium hover:bg-white hover:text-[#0f1623] transition-all duration-200 rounded-sm whitespace-nowrap"
 					aria-label={i18n.cta.button.label}
 				>
 					{i18n.cta.button.label}

@@ -48,6 +48,23 @@
 		? 'bg-white/95 backdrop-blur-md shadow-sm'
 		: 'bg-transparent'}"
 >
+	{#snippet Flag(code)}
+		{#if code === 'en'}
+			<svg class="w-5 h-3 border border-white/20 overflow-hidden rounded-xs shrink-0" viewBox="0 0 50 30" aria-hidden="true">
+				<rect width="50" height="30" fill="#012169"/>
+				<path d="M0,0 L50,30 M0,30 L50,0" stroke="#FFFFFF" stroke-width="6"/>
+				<path d="M0,0 L50,30 M0,30 L50,0" stroke="#C8102E" stroke-width="2"/>
+				<path d="M25,0 L25,30 M0,15 L50,15" stroke="#FFFFFF" stroke-width="10"/>
+				<path d="M25,0 L25,30 M0,15 L50,15" stroke="#C8102E" stroke-width="6"/>
+			</svg>
+		{:else if code === 'id'}
+			<svg class="w-5 h-3 border border-white/20 overflow-hidden rounded-xs shrink-0" viewBox="0 0 3 2" aria-hidden="true">
+				<rect width="3" height="1" fill="#E21C26" />
+				<rect y="1" width="3" height="1" fill="#FFFFFF" />
+			</svg>
+		{/if}
+	{/snippet}
+
 	<div
 		class="section-container flex items-center justify-between h-16 lg:h-20"
 	>
@@ -89,7 +106,7 @@
 					aria-label="Select language"
 					aria-expanded={langOpen}
 				>
-					<span class="text-base leading-none">{currentLang.flag}</span>
+					<span class="flex items-center">{@render Flag(currentLang.code)}</span>
 					<span>{currentLang.label}</span>
 					<svg
 						class="w-3.5 h-3.5 transition-transform duration-200 {langOpen
@@ -121,7 +138,7 @@
 									: 'text-gray-600 hover:bg-gray-50 hover:text-primary'}"
 								onclick={() => selectLanguage(lang.code)}
 							>
-								<span class="text-base leading-none">{lang.flag}</span>
+								<span class="flex items-center">{@render Flag(lang.code)}</span>
 								<span>{lang.name}</span>
 								{#if getLocale() === lang.code}
 									<svg
@@ -209,7 +226,7 @@
 								: (scrolled ? 'text-secondary hover:text-primary' : 'text-white/60 hover:text-white')}"
 							onclick={() => selectLanguage(lang.code)}
 						>
-							<span class="text-base leading-none">{lang.flag}</span>
+							<span class="flex items-center">{@render Flag(lang.code)}</span>
 							<span>{lang.label}</span>
 						</button>
 					{/each}

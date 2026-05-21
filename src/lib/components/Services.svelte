@@ -57,7 +57,7 @@
 							<!-- Right Column: Details list with separate rows (generous padding) -->
 							<div class="flex flex-col h-full justify-between">
 								<!-- Description (Top Section) -->
-								<div class="p-6 flex-shrink-0">
+								<div class="p-6 shrink-0">
 									<p
 										class="text-[14px] leading-relaxed text-[#555555]"
 									>
@@ -74,7 +74,7 @@
 											class="py-3.5 px-6 text-[14px] text-[#444444] flex items-center gap-2.5"
 										>
 											<span
-												class="w-1.5 h-1.5 rounded-full bg-gray-400 flex-shrink-0"
+												class="w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"
 											></span>
 											<span>{bullet}</span>
 										</div>

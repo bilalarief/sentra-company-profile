@@ -20,6 +20,8 @@
 					</a>
 					<a
 						href={i18n.siteInfo.phoneHref}
+						target="_blank"
+						rel="noopener noreferrer"
 						class="text-[22px] font-semibold text-white underline underline-offset-4 decoration-white/40 hover:decoration-white transition-all duration-200 tracking-tight"
 					>
 						{i18n.siteInfo.phone}

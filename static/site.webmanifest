@@ -1,1 +1,21 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Sentra Steel Works",
+  "short_name": "Sentra Steel",
+  "description": "Custom stainless steel fabrication and furniture workshop in Bandung, Indonesia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1623",
+  "theme_color": "#0f1623",
+  "icons": [
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
