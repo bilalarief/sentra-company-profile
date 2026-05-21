@@ -75,8 +75,6 @@
 			>
 				<img
 					src="/images/logo.svg"
-					width="126"
-					height="41"
 					alt="Sentra Steel Works Logo"
 					class="h-7 w-auto"
 				/>

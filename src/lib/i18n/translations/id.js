@@ -57,7 +57,7 @@ export const id = {
 		cards: [
 			{
 				title: 'Fabrikasi Baja\nCustom',
-				image: '/images/service-fabrication.webp',
+				image: '/images/service-fabrication.png',
 				imageAlt: 'Proses fabrikasi baja custom dengan pengelasan dan pengerjaan logam',
 				description:
 					'Punya kebutuhan spesifik? Bawa ide, ukuran, atau foto referensi Anda — kami yang buatkan.',
@@ -70,7 +70,7 @@ export const id = {
 			},
 			{
 				title: 'Furnitur\nStainless Steel',
-				image: '/images/service-furniture.webp',
+				image: '/images/service-furniture.png',
 				imageAlt: 'Furnitur stainless steel termasuk meja dan rak',
 				description:
 					'Tahan lama, bersih, dan dibuat untuk penggunaan sehari-hari. Ukuran standar tersedia, atau kami buatkan custom sesuai ruangan Anda.',

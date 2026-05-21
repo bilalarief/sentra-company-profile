@@ -40,8 +40,6 @@
 							>
 								<img
 									src={card.image}
-									width="245"
-									height="329"
 									alt={card.imageAlt}
 									class="absolute inset-0 w-full h-full object-cover"
 									loading="lazy"
