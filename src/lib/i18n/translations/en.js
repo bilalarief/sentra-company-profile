@@ -2,9 +2,9 @@
 
 export const en = {
 	seo: {
-		title: 'Sentra Steel Works — Custom Gate, Roof & Steel Fabrication Bandung | Partner for Contractors & Architects',
-		description: 'Sentra Steel Works specializes in custom steel & stainless steel fabrication in Bandung. We manufacture premium house gates, canopies, roofs, and structural steel works for architects, contractors, and engineers in Indonesia.',
-		keywords: 'custom steel fabrication bandung, house gate manufacturer, custom steel roof, metal roofing contractor bandung, structural steel engineer indonesia, metal gates bandung, custom railings, architect steel works, automated gate indonesia'
+		title: 'Custom Steel Gates, Roofs & Fabrication for Contractors | Sentra Steel Works Bandung',
+		description: 'Custom steel gates, roofs & fabrication in Bandung for contractors, architects & engineers. Premium house gates, canopies, railings, and structural steel works.',
+		keywords: 'custom steel gates bandung, steel roof contractor bandung, steel fabrication for contractors, custom gate manufacturer indonesia, architect steel fabrication, structural steel engineer bandung, house gate custom, metal roofing contractor, kontraktor baja bandung'
 	},
 
 	siteInfo: {
@@ -27,9 +27,9 @@ export const en = {
 	],
 
 	hero: {
-		headline: 'We Work With Steel.\nWe Build What You Need.',
+		headline: 'Custom Steel Gates, Roofs\n& Fabrication for Contractors & Architects',
 		subtext:
-			'Custom steel, gates, canopies, and stainless steel fabrication in Bandung. A precision partner for contractors, architects, and homeowners.',
+			'Custom gates, steel roofs, canopies & stainless steel fabrication in Bandung. Precision metalworks for contractors, architects, and engineers.',
 		subtextCity: 'Bandung',
 		primaryCta: { label: 'Start Your Project', href: '#contact' },
 		ghostCta: { label: 'See Our Work', href: '#works' }

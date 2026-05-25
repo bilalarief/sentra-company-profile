@@ -2,9 +2,9 @@
 
 export const id = {
 	seo: {
-		title: 'Sentra Steel Works — Fabrikasi Pagar & Atap Custom Bandung | Mitra Kontraktor & Arsitek',
-		description: 'Sentra Steel Works adalah spesialis fabrikasi baja & bengkel las custom di Bandung. Kami melayani pembuatan pagar rumah, kanopi/atap, railing, dan konstruksi besi untuk arsitek, kontraktor, dan engineer.',
-		keywords: 'kontraktor baja bandung, bengkel las pagar custom, kanopi atap custom bandung, arsitek indonesia steel, fabrikasi gerbang rumah, konstruksi besi bandung, pintu gerbang otomatis, railing tangga stainless, jasa las besi bandung, supplier besi kontraktor, custom gate indonesia, engineering steel works'
+		title: 'Pagar & Atap Custom Bandung — Sentra Steel Works | Mitra Kontraktor & Arsitek',
+		description: 'Spesialis fabrikasi pagar, atap & stainless steel custom di Bandung untuk kontraktor, arsitek & engineer. Gerbang otomatis, kanopi, railing & konstruksi besi.',
+		keywords: 'pagar custom bandung, atap baja ringan bandung, kontraktor baja bandung, fabrikasi pagar rumah, kanopi atap custom, mitra kontraktor, bengkel las pagar custom, gerbang otomatis bandung, railing stainless, konstruksi besi, arsitek steel works, custom gate indonesia'
 	},
 
 	siteInfo: {
@@ -27,9 +27,9 @@ export const id = {
 	],
 
 	hero: {
-		headline: 'Kami Bangun Sesuai Kebutuhan Anda.',
+		headline: 'Pagar, Atap & Fabrikasi Steel Custom\nuntuk Kontraktor & Arsitek di Bandung',
 		subtext:
-			'Fabrikasi besi, pagar, kanopi atap, dan stainless steel custom di Bandung. Mitra presisi untuk kontraktor, arsitek, dan pemilik rumah.',
+			'Fabrikasi pagar, gerbang otomatis, kanopi atap, railing & stainless steel di Bandung. Mitra presisi untuk kontraktor, arsitek, dan engineer.',
 		subtextCity: 'Bandung',
 		primaryCta: { label: 'Mulai Proyek Anda', href: '#contact' },
 		ghostCta: { label: 'Lihat Hasil Kerja Kami', href: '#works' }

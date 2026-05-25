@@ -14,6 +14,7 @@
 <svelte:head>
 	<!-- Primary Meta -->
 	<title>{i18n.seo.title}</title>
+	<meta name="google-site-verification" content="JyqYQOTg8djzUUhlAUdGHRguwxjoBqP-AkOO0RqQZno" />
 	<meta name="description" content={i18n.seo.description} />
 	<meta name="keywords" content={i18n.seo.keywords} />
 	<meta name="author" content="Sentra Steel Works" />
@@ -21,7 +22,7 @@
 	<!-- Open Graph -->
 	<meta property="og:title" content={i18n.seo.title} />
 	<meta property="og:description" content={i18n.seo.description} />
-	<meta property="og:image" content="https://www.sentrasteelworks.my.id/images/portfolio-showcase.jpg" />
+	<meta property="og:image" content="https://www.sentrasteelworks.my.id/images/meta-og.png" />
 	<meta property="og:url" content="https://www.sentrasteelworks.my.id" />
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content={getLocale() === 'id' ? 'id_ID' : 'en_US'} />
@@ -35,7 +36,12 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={i18n.seo.title} />
 	<meta name="twitter:description" content={i18n.seo.description} />
-	<meta name="twitter:image" content="https://www.sentrasteelworks.my.id/images/portfolio-showcase.jpg" />
+	<meta name="twitter:image" content="https://www.sentrasteelworks.my.id/images/meta-og.png" />
+
+	<!-- Hreflang -->
+	<link rel="alternate" hreflang="en" href="https://www.sentrasteelworks.my.id" />
+	<link rel="alternate" hreflang="id" href="https://www.sentrasteelworks.my.id" />
+	<link rel="alternate" hreflang="x-default" href="https://www.sentrasteelworks.my.id" />
 
 	<!-- Canonical -->
 	<link rel="canonical" href="https://www.sentrasteelworks.my.id" />
@@ -57,7 +63,7 @@
 			"addressCountry": "ID"
 		},
 		"openingHours": "Mo-Fr 09:00-17:00",
-		"image": "https://www.sentrasteelworks.my.id/images/portfolio-showcase.jpg",
+		"image": "https://www.sentrasteelworks.my.id/images/meta-og.png",
 		"sameAs": [
 			"https://instagram.com/sentrasteelworks",
 			"https://linkedin.com/company/sentrasteelworks",
