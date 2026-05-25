@@ -42,17 +42,19 @@
 				<div class="w-full border-t border-[#D8DAE0]">
 					{#each i18n.howItWorks.steps as step}
 						<div
-							class="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-2 md:gap-6 py-5 border-b border-[#D8DAE0] items-start"
+							class="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-6 py-5 border-b border-[#D8DAE0] items-start"
 						>
-							<!-- Step Number -->
-							<div
-								class="text-[14px] font-semibold text-[#1a2332]"
-							>
-								{i18n.howItWorks.stepPrefix} {step.number}
-							</div>
-							<!-- Step Title -->
-							<div class="text-[14px] font-bold text-[#1a2332]">
-								{step.title}
+							<div class="flex flex-col gap-1 md:contents">
+								<!-- Step Number -->
+								<div
+									class="text-[14px] font-semibold text-[#1a2332]"
+								>
+									{i18n.howItWorks.stepPrefix} {step.number}
+								</div>
+								<!-- Step Title -->
+								<div class="text-[14px] font-bold text-[#1a2332]">
+									{step.title}
+								</div>
 							</div>
 							<!-- Step Description -->
 							<div
