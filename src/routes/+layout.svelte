@@ -1,5 +1,6 @@
 <script>
 	import { content, getLocale } from '$lib/i18n/index.svelte.js';
+	import { onMount } from 'svelte';
 	import '../app.css';
 
 	let { children } = $props();
@@ -9,9 +10,21 @@
 	$effect(() => {
 		document.documentElement.lang = getLocale();
 	});
+
+	onMount(() => {
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = function () {
+			window.dataLayer.push(arguments);
+		};
+		window.gtag('js', new Date());
+		window.gtag('config', 'G-JK9TER405X');
+	});
 </script>
 
 <svelte:head>
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JK9TER405X"></script>
+
 	<!-- Primary Meta -->
 	<title>{i18n.seo.title}</title>
 	<meta name="google-site-verification" content="JyqYQOTg8djzUUhlAUdGHRguwxjoBqP-AkOO0RqQZno" />
