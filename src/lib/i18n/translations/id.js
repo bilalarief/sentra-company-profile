@@ -2,15 +2,15 @@
 
 export const id = {
 	seo: {
-		title: 'Sentra Steel Works — Fabrikasi Stainless Steel & Furnitur Custom Bandung',
-		description: 'Sentra Steel Works adalah bengkel las stainless steel custom di Bandung. Kami spesialis kitchen set, meja, rak, railing, dan fabrikasi baja berkualitas untuk rumah dan kafe.',
-		keywords: 'fabrikasi stainless steel Bandung, bengkel las Bandung, kitchen set stainless steel, meja stainless steel custom, railing stainless steel Bandung, jasa las stainless steel, furniture stainless custom Bandung, bengkel stainless Bandung, pembubutan stainless steel'
+		title: 'Sentra Steel Works — Fabrikasi Pagar & Atap Custom Bandung | Mitra Kontraktor & Arsitek',
+		description: 'Sentra Steel Works adalah spesialis fabrikasi baja & bengkel las custom di Bandung. Kami melayani pembuatan pagar rumah, kanopi/atap, railing, dan konstruksi besi untuk arsitek, kontraktor, dan engineer.',
+		keywords: 'kontraktor baja bandung, bengkel las pagar custom, kanopi atap custom bandung, arsitek indonesia steel, fabrikasi gerbang rumah, konstruksi besi bandung, pintu gerbang otomatis, railing tangga stainless, jasa las besi bandung, supplier besi kontraktor, custom gate indonesia, engineering steel works'
 	},
 
 	siteInfo: {
 		name: 'Sentra Steel Works',
 		logoText: ['SentraSteel', '/ Works'],
-		tagline: 'Fabrikasi & Furnitur Stainless Steel Custom — Bandung',
+		tagline: 'Pabrikasi Pagar & Atap Custom untuk Kontraktor & Arsitek — Bandung',
 		url: 'https://www.sentrasteelworks.my.id',
 		email: 'hello@sentrasteelworks.my.id',
 		phone: '+62 851-5992-2134',
@@ -29,7 +29,7 @@ export const id = {
 	hero: {
 		headline: 'Kami Bangun Sesuai Kebutuhan Anda.',
 		subtext:
-			'Fabrikasi stainless steel dan furnitur custom, dibuat sesuai pesanan di Bandung. Dikerjakan dengan benar, dikirim tepat waktu.',
+			'Fabrikasi besi, pagar, kanopi atap, dan stainless steel custom di Bandung. Mitra presisi untuk kontraktor, arsitek, dan pemilik rumah.',
 		subtextCity: 'Bandung',
 		primaryCta: { label: 'Mulai Proyek Anda', href: '#contact' },
 		ghostCta: { label: 'Lihat Hasil Kerja Kami', href: '#works' }
@@ -38,15 +38,15 @@ export const id = {
 	about: {
 		label: 'Tentang Kami',
 		heading:
-			'Sentra Works adalah bengkel stainless steel yang berlokasi di Bandung. Kami mengerjakan fabrikasi custom dan furnitur untuk pemilik rumah, restoran, kafe, dan kontraktor yang membutuhkan pekerjaan berkualitas.',
+			'Sentra Steel Works adalah spesialis fabrikasi baja dan stainless steel custom di Bandung. Kami bermitra dengan kontraktor, arsitek, engineer, dan pemilik rumah untuk mewujudkan konstruksi besi presisi tinggi.',
 		columns: [
 			{
-				title: 'Simpel & langsung',
-				text: 'Kami sudah cukup lama di bidang ini untuk tahu apa yang penting: material bagus, pengerjaan rapi, dan tanpa buang waktu. Kalau Anda butuh sesuatu dari baja, kami akan kerjakan dengan benar.'
+				title: 'Mitra Konstruksi & Arsitek',
+				text: 'Kami memahami bahasa teknis Anda. Dengan keselarasan gambar CAD, spesifikasi material (BoQ) yang akurat, serta pengelasan yang kuat dan rapi, kami mendukung kelancaran proyek konstruksi Anda.'
 			},
 			{
-				title: 'Fokus pada klien',
-				text: 'Baik itu satu piece custom atau fit-out komersial lengkap, kami perlakukan setiap pesanan sama — sesuai spesifikasi Anda, sesuai timeline Anda, dikerjakan dengan baik. Itulah yang membuat klien kami kembali lagi.'
+				title: 'Pagar & Atap Custom',
+				text: 'Dari pagar minimalis modern, pintu gerbang otomatis sliding/folding, hingga kanopi atap tempered glass, alderon, dan rangka baja WF untuk ketahanan iklim tropis Indonesia.'
 			}
 		]
 	},
@@ -56,30 +56,29 @@ export const id = {
 		heading: 'Yang Bisa Kami Lakukan Untuk Anda',
 		cards: [
 			{
-				title: 'Fabrikasi Baja\nCustom',
-				image: '/images/service-fabrication.png',
-				imageAlt: 'Proses fabrikasi baja custom dengan pengelasan dan pengerjaan logam',
+				title: 'Pagar, Gerbang\n& Kanopi Custom',
+				image: '/images/service-fabrication.webp',
+				imageAlt: 'Pagar dan kanopi atap baja custom untuk rumah modern',
 				description:
-					'Punya kebutuhan spesifik? Bawa ide, ukuran, atau foto referensi Anda — kami yang buatkan.',
+					'Meningkatkan keamanan dan estetika rumah tinggal dengan solusi eksterior besi/baja custom kelas premium.',
 				bullets: [
-					'Railing, rangka & struktur',
-					'Pengelasan, pemotongan & pembentukan',
-					'Finishing & poles permukaan',
-					'Tersedia jasa pemasangan'
+					'Pagar minimalis & pintu gerbang otomatis',
+					'Kanopi kaca tempered, alderon & polycarbonate',
+					'Struktur rangka atap baja & WF/H-Beam',
+					'Finishing cat anti karat & powder coating'
 				]
 			},
 			{
-				title: 'Furnitur\nStainless Steel',
-				image: '/images/service-furniture.png',
-				imageAlt: 'Furnitur stainless steel termasuk meja dan rak',
+				title: 'Fabrikasi Besi\n& Stainless Custom',
+				image: '/images/service-furniture.webp',
+				imageAlt: 'Proses fabrikasi logam stainless steel berkualitas tinggi',
 				description:
-					'Tahan lama, bersih, dan dibuat untuk penggunaan sehari-hari. Ukuran standar tersedia, atau kami buatkan custom sesuai ruangan Anda.',
+					'Pekerjaan logam presisi tinggi untuk arsitek, interior desainer, kontraktor, restoran, dan proyek residensial mewah.',
 				bullets: [
-					'Meja makan & meja kerja',
-					'Rak & penyimpanan',
-					'Bar counter & kitchen set',
-					'Penggunaan indoor & outdoor',
-					'Ukuran custom tersedia'
+					'Railing tangga, balkon & void custom',
+					'Kitchen set stainless steel & meja kerja kafe',
+					'Rak pajangan, furnitur & artwork logam',
+					'Pengerjaan sesuai gambar CAD & BoQ proyek'
 				]
 			}
 		]
@@ -121,24 +120,24 @@ export const id = {
 		heading: 'Pertanyaan Umum',
 		items: [
 			{
-				question: 'Apakah menerima pesanan kecil atau satuan?',
+				question: 'Apakah menerima pesanan dari kontraktor, arsitek, atau engineer?',
 				answer:
-					'Ya. Baik itu satu rak atau fit-out dapur lengkap, kami tangani keduanya. Setiap pesanan mendapat perhatian yang sama.'
+					'Ya. Kami sangat sering bermitra dengan profesional konstruksi. Kami memfabrikasi berdasarkan gambar kerja CAD/3D, mencocokkan spesifikasi material (BoQ), dan mengikuti jadwal kerja proyek Anda.'
 			},
 			{
-				question: 'Berapa lama waktu pengerjaan?',
+				question: 'Berapa lama pengerjaan pagar, kanopi, atau atap custom?',
 				answer:
-					'Sebagian besar produk custom selesai dalam 7–14 hari kerja, tergantung kompleksitas. Kami akan berikan timeline yang jelas sebelum mulai.'
+					'Sebagian besar proyek atap, kanopi, atau pagar rumah selesai dalam 10–18 hari kerja, termasuk pengukuran lapangan dan instalasi akhir di lokasi.'
 			},
 			{
-				question: 'Apakah saya harus punya ukuran atau gambar yang pasti?',
+				question: 'Apa jenis bahan yang digunakan untuk pintu gerbang dan kanopi?',
 				answer:
-					'Tidak harus. Foto referensi dan perkiraan ukuran biasanya cukup untuk memulai. Kami akan tentukan detail-nya bersama.'
+					'Kami menyediakan baja ringan, baja berat (WF/H-Beam), besi hollow galvanis anti karat, dan stainless steel SUS 201/304 dengan finishing cat epoxy berkualitas atau powder coating.'
 			},
 			{
-				question: 'Di mana lokasinya, dan apakah bisa dikirim?',
+				question: 'Apakah melayani survei lokasi dan pemasangan di luar Bandung?',
 				answer:
-					'Kami berlokasi di Bandung. Pengiriman tersedia di area sekitar — cukup beritahu lokasi Anda saat menghubungi kami.'
+					'Kami berbasis di Bandung dan melayani survei serta pemasangan untuk wilayah Bandung Raya, Jakarta, dan sekitarnya. Silakan hubungi WhatsApp kami untuk koordinasi proyek.'
 			}
 		]
 	},

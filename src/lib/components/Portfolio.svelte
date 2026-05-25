@@ -15,7 +15,7 @@
 	>
 		<!-- Fallback: show poster image behind the video or if loading fails -->
 		<img
-			src="/images/portfolio-showcase.jpg"
+			src="/images/portfolio-showcase.webp"
 			alt="Sentra Steel Works portfolio showcase"
 			class="absolute inset-0 w-full h-full object-cover object-center"
 		/>

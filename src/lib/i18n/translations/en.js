@@ -2,15 +2,15 @@
 
 export const en = {
 	seo: {
-		title: 'Sentra Steel Works — Custom Stainless Steel Fabrication & Furniture | Bandung',
-		description: 'Sentra Steel Works is a premium custom stainless steel workshop in Bandung, Indonesia. We specialize in bespoke steel furniture, kitchen sets, railings, and commercial metal fabrication.',
-		keywords: 'custom metal fabrication Indonesia, stainless steel fabrication, custom steel furniture, Bandung workshop, metal fabrication Indonesia, steel welding, custom kitchen steel, stainless steel workshop Bandung'
+		title: 'Sentra Steel Works — Custom Gate, Roof & Steel Fabrication Bandung | Partner for Contractors & Architects',
+		description: 'Sentra Steel Works specializes in custom steel & stainless steel fabrication in Bandung. We manufacture premium house gates, canopies, roofs, and structural steel works for architects, contractors, and engineers in Indonesia.',
+		keywords: 'custom steel fabrication bandung, house gate manufacturer, custom steel roof, metal roofing contractor bandung, structural steel engineer indonesia, metal gates bandung, custom railings, architect steel works, automated gate indonesia'
 	},
 
 	siteInfo: {
 		name: 'Sentra Steel Works',
 		logoText: ['SentraSteel', '/ Works'],
-		tagline: 'Custom Stainless Steel Fabrication & Furniture — Bandung',
+		tagline: 'Custom Gates, Roofs & Steel Fabrication for Contractors & Architects — Bandung',
 		url: 'https://www.sentrasteelworks.my.id',
 		email: 'hello@sentrasteelworks.my.id',
 		phone: '+62 851-5992-2134',
@@ -29,7 +29,7 @@ export const en = {
 	hero: {
 		headline: 'We Work With Steel.\nWe Build What You Need.',
 		subtext:
-			'Custom stainless steel fabrication and furniture, made to order in Bandung. Built right, delivered on time.',
+			'Custom steel, gates, canopies, and stainless steel fabrication in Bandung. A precision partner for contractors, architects, and homeowners.',
 		subtextCity: 'Bandung',
 		primaryCta: { label: 'Start Your Project', href: '#contact' },
 		ghostCta: { label: 'See Our Work', href: '#works' }
@@ -38,15 +38,15 @@ export const en = {
 	about: {
 		label: 'About Us',
 		heading:
-			'Sentra Works is a stainless steel workshop based in Bandung. We do custom fabrication and furniture for homeowners, restaurants, cafes, and contractors who need the work done properly.',
+			'Sentra Steel Works is a custom steel and stainless steel fabrication specialist based in Bandung. We partner with contractors, architects, engineers, and homeowners to deliver high-precision metal works.',
 		columns: [
 			{
-				title: 'Simple & direct',
-				text: "We've been doing this long enough to know what matters: good materials, clean work, and no wasted time. If you need something built from steel, we'll get it done right."
+				title: 'Contractor & Architect Ally',
+				text: 'We understand your technical requirements. We work from CAD drawings, match material bills of quantities (BoQ) precisely, and align our delivery with your construction schedules.'
 			},
 			{
-				title: 'Client-focused',
-				text: "Whether it's a single custom piece or a full commercial fit-out, we treat every order the same — your specs, your timeline, done properly. That's what keeps our clients coming back."
+				title: 'Custom Gates & Roofs',
+				text: 'From modern minimalist gates, automated sliding/folding gates, to tempered glass or Alderon canopies, and structural steel frameworks tailored for Indonesia\'s climate.'
 			}
 		]
 	},
@@ -56,30 +56,29 @@ export const en = {
 		heading: 'What We Can Do For You',
 		cards: [
 			{
-				title: 'Custom Steel\nFabrication',
-				image: '/images/service-fabrication.png',
-				imageAlt: 'Custom steel fabrication process showing welding and metalwork',
+				title: 'Custom Gates,\nFences & Canopies',
+				image: '/images/service-fabrication.webp',
+				imageAlt: 'Custom steel gates and roof canopies for modern residential homes',
 				description:
-					"Got a specific need? Bring us your idea, measurements, or a reference photo — we'll build it.",
+					'Enhance home security and curb appeal with our premium, bespoke exterior metal solutions.',
 				bullets: [
-					'Railings, frames & structures',
-					'Welding, cutting & forming',
-					'Surface finishing & polishing',
-					'Installation available'
+					'Minimalist gates & automated sliding gates',
+					'Tempered glass, Alderon & polycarbonate canopies',
+					'Steel roof structures & WF/H-Beam framing',
+					'Anti-rust primer coating & powder finish'
 				]
 			},
 			{
-				title: 'Stainless Steel\nFurniture',
-				image: '/images/service-furniture.png',
-				imageAlt: 'Stainless steel furniture including tables and shelving units',
+				title: 'Steel & Stainless\nFabrication',
+				image: '/images/service-furniture.webp',
+				imageAlt: 'High precision steel and stainless steel fabrication process',
 				description:
-					'Durable, clean, and built for daily use. Standard sizes ready, or we make it custom to fit your space.',
+					'High-precision metal fabrication for architects, interior designers, commercial venues, and luxury residential projects.',
 				bullets: [
-					'Dining tables & workbenches',
-					'Shelving, racks & storage',
-					'Bar counters & kitchen sets',
-					'Indoor & outdoor use',
-					'Custom size on request'
+					'Custom stair railings, balconies & void structures',
+					'Commercial stainless kitchen sets & prep tables',
+					'Metal display racks, bespoke furniture & artwork',
+					'Fabrication matching project CAD plans & BoQs'
 				]
 			}
 		]
@@ -120,24 +119,24 @@ export const en = {
 		heading: 'Common Questions',
 		items: [
 			{
-				question: 'Do you take small or one-off orders?',
+				question: 'Do you work with contractors, architects, or engineers?',
 				answer:
-					"Yes. Whether it's a single shelf or a full kitchen fit-out, we handle both. Every order gets the same attention."
+					'Yes, we regularly partner with construction professionals. We fabricate based on CAD/3D technical drawings, match Bill of Quantities (BoQ) specs, and accommodate strict site schedules.'
 			},
 			{
-				question: 'How long does an order take?',
+				question: 'How long does it take to build custom gates or roofs?',
 				answer:
-					"Most custom pieces are ready within 7–14 working days, depending on complexity. We'll give you a clear timeline before we start."
+					'Most canopy, roofing, or gate projects are completed within 10–18 working days, including site measurements and final on-site installation.'
 			},
 			{
-				question: 'Do I need to have exact measurements or drawings?',
+				question: 'What materials are used for gates and canopies?',
 				answer:
-					"Not necessarily. A reference photo and rough dimensions are usually enough to get started. We'll work out the details together."
+					'We offer mild steel, heavy structural steel (WF/H-Beam), rust-resistant galvanized hollow steel, and stainless steel SUS 201/304 with premium epoxy or powder coatings.'
 			},
 			{
-				question: 'Where are you based, and do you deliver?',
+				question: 'Do you perform site surveys and installations outside Bandung?',
 				answer:
-					"We're based in Bandung. Delivery is available within the area — just let us know your location when you reach out."
+					'Yes. While based in Bandung, we provide site surveys and installation services across Greater Bandung, Jakarta, and neighboring regions in Indonesia.'
 			}
 		]
 	},
