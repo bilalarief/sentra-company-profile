@@ -66,7 +66,7 @@
 		"name": "Sentra Steel Works",
 		"description": i18n.seo.description,
 		"url": "https://www.sentrasteelworks.my.id",
-		"telephone": "+6285159922134",
+		"telephone": "+6285111321442",
 		"email": "hello@sentrasteelworks.my.id",
 		"priceRange": "$$",
 		"address": {

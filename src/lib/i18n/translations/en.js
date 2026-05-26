@@ -13,9 +13,9 @@ export const en = {
 		tagline: 'Custom Gates, Roofs & Steel Fabrication for Contractors & Architects — Bandung',
 		url: 'https://www.sentrasteelworks.my.id',
 		email: 'hello@sentrasteelworks.my.id',
-		phone: '+62 851-5992-2134',
-		phoneHref: 'https://wa.me/6285159922134?text=Hello%20Sentra%20Steel%20Works%2C%20I%20am%20interested%20in%20your%20custom%20steel%20%2F%20stainless%20steel%20fabrication%20services.',
-		whatsapp: 'https://wa.me/6285159922134',
+		phone: '+62 851-1132-1442',
+		phoneHref: 'https://wa.me/6285111321442?text=Hello%20Sentra%20Steel%20Works%2C%20I%20am%20interested%20in%20your%20custom%20steel%20%2F%20stainless%20steel%20fabrication%20services.',
+		whatsapp: 'https://wa.me/6285111321442',
 		address: 'Bandung, Indonesia',
 		hours: 'Monday–Friday 9 AM–5 PM WIB',
 		copyright: `© ${new Date().getFullYear()} Sentra Steel Works. All rights reserved.`
