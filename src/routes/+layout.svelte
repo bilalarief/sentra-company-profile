@@ -78,6 +78,7 @@
 		"openingHours": "Mo-Fr 09:00-17:00",
 		"image": "https://www.sentrasteelworks.my.id/images/meta-og.png",
 		"sameAs": [
+			"https://www.facebook.com/profile.php?id=61590043816588",
 			"https://instagram.com/sentrasteelworks",
 			"https://linkedin.com/company/sentrasteelworks",
 			"https://tiktok.com/@sentrasteelworks"

@@ -152,6 +152,11 @@ export const en = {
 		social: 'Social',
 		socials: [
 			{
+				label: 'Facebook',
+				href: 'https://www.facebook.com/profile.php?id=61590043816588',
+				icon: 'facebook'
+			},
+			{
 				label: 'Instagram',
 				href: 'https://instagram.com/sentrasteelworks',
 				icon: 'instagram'
