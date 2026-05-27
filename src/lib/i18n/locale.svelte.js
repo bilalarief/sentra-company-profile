@@ -4,7 +4,7 @@
 
 const STORAGE_KEY = 'sentra-locale';
 const SUPPORTED = ['en', 'id'];
-const DEFAULT = 'en';
+const DEFAULT = 'id';
 
 let locale = $state(DEFAULT);
 let detected = $state(false);

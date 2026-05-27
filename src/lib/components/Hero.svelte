@@ -14,7 +14,7 @@
 		<!-- Full opacity background image -->
 		<img
 			src="/images/hero-bg.webp"
-			alt="Sentra Steel Works metal fabrication workshop"
+			alt={i18n.hero.imageAlt}
 			class="w-full h-full object-cover object-center"
 		/>
 		<!-- Solid black overlay with 45% opacity matching Figma specs -->

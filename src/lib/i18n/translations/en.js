@@ -2,22 +2,22 @@
 
 export const en = {
 	seo: {
-		title: 'Custom Steel Gates, Roofs & Fabrication for Contractors | Sentra Steel Works Bandung',
-		description: 'Custom steel gates, roofs & fabrication in Bandung for contractors, architects & engineers. Premium house gates, canopies, railings, and structural steel works.',
-		keywords: 'custom steel gates bandung, steel roof contractor bandung, steel fabrication for contractors, custom gate manufacturer indonesia, architect steel fabrication, structural steel engineer bandung, house gate custom, metal roofing contractor, kontraktor baja bandung'
+		title: 'Custom Steel & Stainless Fabrication Bandung | Sentra Steel Works',
+		description: 'Custom steel gates, canopies, roofing and fabrication in Bandung, Indonesia. Trusted by contractors, architects and homeowners across West Java.',
+		keywords: 'custom steel fabrication Bandung, steel gates Bandung, canopy contractor Bandung, stainless steel fabrication Indonesia, roof contractor Bandung, custom railing Bandung, steel works for architects, structural steel contractor West Java'
 	},
 
 	siteInfo: {
 		name: 'Sentra Steel Works',
 		logoText: ['SentraSteel', '/ Works'],
-		tagline: 'Custom Gates, Roofs & Steel Fabrication for Contractors & Architects — Bandung',
+		tagline: 'Custom Steel Gates, Canopies & Fabrication in Bandung — For Homes & Professional Projects',
 		url: 'https://www.sentrasteelworks.my.id',
 		email: 'hello@sentrasteelworks.my.id',
 		phone: '+62 851-1132-1442',
-		phoneHref: 'https://wa.me/6285111321442?text=Hello%20Sentra%20Steel%20Works%2C%20I%20am%20interested%20in%20your%20custom%20steel%20%2F%20stainless%20steel%20fabrication%20services.',
+		phoneHref: 'https://wa.me/6285111321442?text=Hello%20Sentra%20Steel%20Works%2C%20I%20would%20like%20to%20discuss%20a%20custom%20steel%20%2F%20stainless%20fabrication%20project.',
 		whatsapp: 'https://wa.me/6285111321442',
 		address: 'Bandung, Indonesia',
-		hours: 'Monday–Friday 9 AM–5 PM WIB',
+		hours: 'Monday–Friday 8 AM–5 PM WIB',
 		copyright: `© ${new Date().getFullYear()} Sentra Steel Works. All rights reserved.`
 	},
 
@@ -27,58 +27,63 @@ export const en = {
 	],
 
 	hero: {
-		headline: 'Custom Steel Gates, Roofs\n& Fabrication for Contractors & Architects',
+		headline: 'Custom Steel Gates, Canopies & Fabrication\nfor Homes and Professional Projects in Bandung',
 		subtext:
-			'Custom gates, steel roofs, canopies & stainless steel fabrication in Bandung. Precision metalworks for contractors, architects, and engineers.',
-		subtextCity: 'Bandung',
-		primaryCta: { label: 'Start Your Project', href: '#contact' },
-		ghostCta: { label: 'See Our Work', href: '#works' }
+			'Custom steel gates, canopies, light steel roofing and stainless railings for homeowners and commercial projects — working with architects and contractors across',
+		subtextCity: 'Bandung.',
+		primaryCta: { label: 'Free Consultation', href: '#contact' },
+		ghostCta: { label: 'See Our Work', href: '#works' },
+		imageAlt: 'Custom steel canopy and gate fabrication workshop in Bandung — Sentra Steel Works'
 	},
 
 	about: {
 		label: 'About Us',
 		heading:
-			'Sentra Steel Works is a custom steel and stainless steel fabrication specialist based in Bandung. We partner with contractors, architects, engineers, and homeowners to deliver high-precision metal works.',
+			'Sentra Steel Works is a custom steel and stainless steel fabrication specialist based in Bandung, Indonesia — serving homeowners, architects, contractors, design studios and property developers across West Java.',
 		columns: [
 			{
-				title: 'Contractor & Architect Ally',
-				text: 'We understand your technical requirements. We work from CAD drawings, match material bills of quantities (BoQ) precisely, and align our delivery with your construction schedules.'
+				title: 'Trusted by Construction Professionals',
+				text: 'We work from your CAD drawings, match Bill of Quantities (BoQ) precisely, and deliver on your schedule. Quality materials — galvanized hollow steel, SUS 304 stainless steel, wrought iron — with expert welding and finishing for tropical climates.'
 			},
 			{
-				title: 'Custom Gates & Roofs',
-				text: 'From modern minimalist gates, automated sliding/folding gates, to tempered glass or Alderon canopies, and structural steel frameworks tailored for Indonesia\'s climate.'
+				title: 'Custom Gates & Canopies for Homes',
+				text: 'From minimalist carport canopies and modern stainless house gates to custom stair railings and steel doors — all made to your measurements, style, and budget. Anti-rust primer and powder coat finish for lasting durability.'
 			}
 		]
 	},
 
 	services: {
 		label: 'Services',
-		heading: 'What We Can Do For You',
+		heading: 'What We Build',
 		cards: [
 			{
-				title: 'Custom Gates,\nFences & Canopies',
+				title: 'Canopies, Gates & Roofing\nFor Homes',
 				image: '/images/service-fabrication.webp',
-				imageAlt: 'Custom steel gates and roof canopies for modern residential homes',
+				imageAlt: 'Custom steel carport canopy and stainless house gate in Bandung',
 				description:
-					'Enhance home security and curb appeal with our premium, bespoke exterior metal solutions.',
+					'Custom steel fabrication for homeowners — from carport canopies to minimalist gates. Quality materials, clean finish, competitive pricing.',
 				bullets: [
-					'Minimalist gates & automated sliding gates',
-					'Tempered glass, Alderon & polycarbonate canopies',
-					'Steel roof structures & WF/H-Beam framing',
-					'Anti-rust primer coating & powder finish'
+					'Custom steel carport canopies',
+					'Stainless & wrought iron house gates',
+					'Light steel roofing for terraces & carports',
+					'Custom stair & balcony railings',
+					'Modern minimalist steel doors',
+					'Anti-rust & powder coat finishing'
 				]
 			},
 			{
-				title: 'Steel & Stainless\nFabrication',
+				title: 'Steel & Stainless Fabrication\nFor Professional Projects',
 				image: '/images/service-furniture.webp',
-				imageAlt: 'High precision steel and stainless steel fabrication process',
+				imageAlt: 'Steel and stainless fabrication for contractors and architects in Bandung',
 				description:
-					'High-precision metal fabrication for architects, interior designers, commercial venues, and luxury residential projects.',
+					'Fabrication partner for architects, contractors and design studios. Built to technical specs, BoQ, and project timelines.',
 				bullets: [
-					'Custom stair railings, balconies & void structures',
-					'Commercial stainless kitchen sets & prep tables',
-					'Metal display racks, bespoke furniture & artwork',
-					'Fabrication matching project CAD plans & BoQs'
+					'Fabrication from CAD drawings & BoQ specs',
+					'Structural steel WF/H-Beam construction',
+					'Custom stainless railings for commercial projects',
+					'Commercial stainless steel kitchen sets',
+					'Custom metal furniture & display racks',
+					'Construction site schedule support'
 				]
 			}
 		]
@@ -87,64 +92,81 @@ export const en = {
 	portfolio: {
 		label: 'Works',
 		heading: 'Built by Us. Tested by Use.',
-		subtext: 'Every piece in our portfolio was made to order. No stock items, no shortcuts.'
+		subtext: 'Every piece was made to order. No stock items, no shortcuts.',
+		imageAlt: 'Portfolio of custom steel and stainless fabrication work — Sentra Steel Works Bandung',
+		videoTitle: 'Sentra Steel Works portfolio video — custom steel and stainless fabrication Bandung'
 	},
 
 	howItWorks: {
 		label: 'Process',
 		heading: 'How It Works',
-		subheading: "It's Simpler Than You Think. It only takes three steps.",
+		subheading: 'Simple, Transparent, No Hassle. Just three steps.',
 		stepPrefix: 'Step',
 		steps: [
 			{
 				number: '01',
-				title: 'Tell Us What You Need',
-				text: "Share your idea, sketch, measurements, or a reference photo. No need to have it all figured out — we'll help you from there."
+				title: 'Consult & Measure',
+				text: "Tell us what you need — a carport canopy, house gate, or stair railing? Our team visits your site for a free survey and measurement. Don't worry about the technical details — we'll guide you from the start."
 			},
 			{
 				number: '02',
-				title: 'We Plan & Confirm',
-				text: "We'll send you a quote with timeline and specs. Once confirmed, we get to work — no shortcuts, no guessing."
+				title: 'Design & Confirm',
+				text: "We'll prepare a design and quote with full material specs and timeline. Transparent pricing — no hidden costs. Once you approve, we start production immediately."
 			},
 			{
 				number: '03',
-				title: 'Built & Delivered',
-				text: "Your piece is fabricated, finished, and ready on time. We can deliver or arrange pickup, whichever works for you."
+				title: 'Fabricate & Install',
+				text: "Your piece is fabricated at our workshop to the highest standards, then our team handles on-site installation. Precise, clean, and on time — we make sure you're happy with the result."
 			}
 		]
 	},
 
 	faq: {
 		label: 'FAQ',
-		heading: 'Common Questions',
+		heading: 'Frequently Asked Questions',
 		items: [
 			{
-				question: 'Do you work with contractors, architects, or engineers?',
+				question: 'How much does a steel canopy cost per meter in Bandung?',
 				answer:
-					'Yes, we regularly partner with construction professionals. We fabricate based on CAD/3D technical drawings, match Bill of Quantities (BoQ) specs, and accommodate strict site schedules.'
+					'Canopy pricing varies by material type, size, and design complexity. Galvanized hollow steel canopies start from IDR 350,000/m², while WF steel canopies for wider spans start from IDR 600,000/m². Prices include the frame, roofing material (metal sheet, Alderon, or polycarbonate), and anti-rust finish. Contact us on WhatsApp for a free site survey and custom quote.'
 			},
 			{
-				question: 'How long does it take to build custom gates or roofs?',
+				question: 'Can I order custom sizes to my specifications?',
 				answer:
-					'Most canopy, roofing, or gate projects are completed within 10–18 working days, including site measurements and final on-site installation.'
+					'Absolutely. Everything we build is custom — no standard sizes or stock items. Whether it\'s a carport canopy, house gate, stair railing, or steel door — we fabricate 100% to your measurements, design preferences, and material choices.'
 			},
 			{
-				question: 'What materials are used for gates and canopies?',
+				question: 'How long does it take to complete a canopy or gate?',
 				answer:
-					'We offer mild steel, heavy structural steel (WF/H-Beam), rust-resistant galvanized hollow steel, and stainless steel SUS 201/304 with premium epoxy or powder coatings.'
+					'Most canopy or gate projects are completed within 10–18 working days, depending on size and complexity. The process includes: site survey (1 day), workshop fabrication (7–12 days), and on-site installation (1–2 days). Larger commercial steel construction projects follow a contracted timeline.'
 			},
 			{
-				question: 'Do you perform site surveys and installations outside Bandung?',
+				question: 'Do you provide free site survey and installation?',
 				answer:
-					'Yes. While based in Bandung, we provide site surveys and installation services across Greater Bandung, Jakarta, and neighboring regions in Indonesia.'
+					'Yes, we provide FREE site survey and consultation for the Bandung area and surrounding regions. Our team will visit your location to measure, discuss design and materials, and provide a quote. Installation is included in the price — no need to hire separate contractors.'
+			},
+			{
+				question: 'Do you serve projects outside Bandung?',
+				answer:
+					'Yes. We provide survey, fabrication, and installation services across Greater Bandung (Bandung City, Cimahi, West Bandung, Bandung Regency), Bekasi, Jakarta, and throughout West Java. For projects outside these areas, please contact us for coordination.'
+			},
+			{
+				question: 'What materials are used for steel gates and stainless fabrication?',
+				answer:
+					'We use high-quality materials: anti-rust galvanized hollow steel, light steel, structural WF/H-Beam steel, wrought iron, and SUS 304 food-grade stainless steel. All materials are finished with anti-rust epoxy paint or powder coating for long-term durability in Indonesia\'s tropical climate.'
+			},
+			{
+				question: 'Do you collaborate with architects and contractors?',
+				answer:
+					'Absolutely — we regularly serve as a fabrication vendor for architects, contractors, interior design studios, and property developers. We accept CAD drawings and BoQ specifications, follow your construction schedule, and offer special pricing for professional partners. Contact us to discuss a partnership.'
 			}
 		]
 	},
 
 	cta: {
-		heading: 'Ready to Build Something?',
-		subtext: "Tell us what you have in mind — we'll take it from there.",
-		button: { label: 'Start Your Project', href: '#contact' }
+		heading: 'Ready to Build Your Canopy or Gate?',
+		subtext: 'FREE consultation, site survey, and quote — no cost, no obligation. Tell us what you need via WhatsApp today.',
+		button: { label: 'Free Consultation via WhatsApp', href: '#contact' }
 	},
 
 	footer: {
